@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://udyam-project.onrender.com";
 
 export async function fetchFormSchema() {
   const res = await fetch(`${API_BASE}/schema/formSchema.json`);
