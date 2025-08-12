@@ -34,7 +34,7 @@ export default function StepTwoForm({ schema, formData, setFormData }) {
 
     const res = await submitForm(formData);
     if (res.ok) {
-      setMessage("✅ Registration saved successfully!");
+      setMessage("✅ Registration done successfully!");
     } else {
       setMessage(` ${res.error || "Submission failed"}`);
     }
